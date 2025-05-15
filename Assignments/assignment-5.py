@@ -55,7 +55,7 @@ print("Float elements:", float_elements)
 #  Create a 3×5 matrix representing three weeks of sales by stacking
 # sales three times using broadcasting.
 #  Increase sales by 2% per week using element-wise broadcasting.
-initials = "AB"
+initials = "IS"
 X = sum(ord(char) for char in initials)
 sales = np.array([X, X + 50, X + 100, X + 150, X + 200])
 tax_rate = ((X % 5) + 5) / 100
